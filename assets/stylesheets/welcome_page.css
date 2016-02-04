@@ -69,39 +69,47 @@ body {
     -webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
     -o-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s; }
 
-/* line 106, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 105, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+section p.foot {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  font-size: .9em; }
+/* line 114, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section header h1 {
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 50px; }
 
-/* line 115, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 123, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.page-section .contain {
   background: rgba(255, 255, 255, 0.9);
   padding: 40px;
   margin: 0 90px; }
 
-/* line 122, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 130, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 footer#main-footer {
   background: #4d443b;
   color: #e9e9e9;
   padding: 10px 0; }
-  /* line 126, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 134, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   footer#main-footer p {
     margin: 0; }
 
-/* line 131, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 139, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 figure {
   position: relative;
   margin-bottom: 30px; }
-  /* line 134, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 142, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   figure a {
     display: block; }
-  /* line 137, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 145, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   figure img {
     vertical-align: middle; }
 
-/* line 142, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 150, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 figcaption {
   position: absolute;
   bottom: 10%;
@@ -111,169 +119,170 @@ figcaption {
   color: white;
   text-align: center; }
 
-/* line 152, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 160, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 .no-padding {
   padding: 0; }
 
-/* line 157, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 165, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.about-cols-tmpl .header h2 {
   margin-bottom: 30px; }
-/* line 160, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 168, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.about-cols-tmpl .header p {
   margin-bottom: 40px;
   color: #4d443b; }
-/* line 166, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 174, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.about-cols-tmpl .card {
   margin-bottom: 20px; }
-/* line 169, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 177, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.about-cols-tmpl img {
   overflow: hidden; }
-/* line 172, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 180, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.about-cols-tmpl h3, section.about-cols-tmpl h4 {
   font-size: 1.1em;
   margin-bottom: 10px; }
-/* line 176, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 184, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.about-cols-tmpl p {
   color: #777;
   font-size: 1em; }
 
-/* line 190, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 198, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section#pricing-plans .pricing-well {
   background: #fff;
   padding: 10px;
   border-bottom: 1px solid #e9e9e9;
   text-align: center; }
-/* line 196, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 204, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section#pricing-plans ul {
   margin-left: 0;
   padding-left: 0;
   list-style: none; }
-/* line 197, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 205, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section#pricing-plans .select-plan {
   text-align: center;
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-bottom: 5px; }
 
-/* line 204, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 213, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.info-cols-tmpl img.logo {
   margin: 0 5px; }
 
-/* line 211, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 220, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section#welcome-info form.email-form label, section#welcome-info form.email-form input {
   margin-right: 4px; }
-/* line 212, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 221, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section#welcome-info form.email-form p {
   margin-top: 30px; }
 
-/* line 219, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 228, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.info-cols-tmpl ul.info-features i.fa {
   margin-right: 8px; }
-/* line 221, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 230, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.info-cols-tmpl a.pricing-btn {
   margin: 20px 0; }
-/* line 224, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 233, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.info-cols-tmpl h2 {
   font-size: 1.4em;
   line-height: 1.6em;
   margin-bottom: 20px; }
-  /* line 228, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 237, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   section.info-cols-tmpl h2.title {
     margin-top: 0; }
-/* line 230, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 239, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.info-cols-tmpl h1 {
   margin-bottom: 40px;
   line-height: 1.2em; }
-/* line 234, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 243, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.info-cols-tmpl i {
   margin-top: 3px;
   font-size: 1.6em; }
-/* line 238, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 247, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.info-cols-tmpl h3, section.info-cols-tmpl h4 {
   font-size: 1.3em; }
-/* line 241, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 250, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.info-cols-tmpl p {
   font-size: 1em; }
-/* line 244, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 253, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.info-cols-tmpl .info-col {
   margin-bottom: 15px; }
-/* line 247, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 256, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.info-cols-tmpl .info-col-icon {
   text-align: right; }
 
-/* line 252, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 261, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.events-tmpl {
   background-color: #4d443b;
   color: #e9e9e9;
   padding: 0; }
-  /* line 256, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 265, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   section.events-tmpl .col-content {
     padding: 40px; }
-    /* line 258, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+    /* line 267, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
     section.events-tmpl .col-content h2 {
       margin-top: 0;
       margin-bottom: 20px; }
 
-/* line 266, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 275, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.two-cols-tmpl p {
   color: #777; }
 
-/* line 271, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 280, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 section.highlights-tmpl {
   background-color: #D1462F;
   color: #e9e9e9; }
-  /* line 275, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 284, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   section.highlights-tmpl .highlights-content h2 {
     margin-top: 0px;
     margin-bottom: 20px; }
-  /* line 281, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 290, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   section.highlights-tmpl .highlights-icons > .row {
     margin-bottom: 20px; }
-  /* line 286, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 295, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   section.highlights-tmpl .highlights-text h2, section.highlights-tmpl .highlights-text h3, section.highlights-tmpl .highlights-text h4 {
     margin: 5px 0;
     font-size: 1.2em; }
-  /* line 291, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 300, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   section.highlights-tmpl .highlights-icon {
     text-align: right; }
-    /* line 293, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+    /* line 302, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
     section.highlights-tmpl .highlights-icon i {
       font-size: 2em;
       margin-top: 5px; }
 
-/* line 300, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 309, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 .slick-prev:before {
   content: "\f053"; }
 
-/* line 301, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 310, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 [dir="rtl"] .slick-prev:before {
   content: "\f054"; }
 
-/* line 302, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 311, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 [dir="rtl"] .slick-next {
   left: -10px;
   top: 70px;
   right: auto; }
 
-/* line 303, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 312, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 .slick-next:before {
   content: "\f054"; }
 
-/* line 304, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 313, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 [dir="rtl"] .slick-next:before {
   content: "\f053"; }
 
-/* line 306, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 315, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 .carousel-item {
   padding: 10px; }
 
-/* line 311, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 320, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 nav#fullpage-nav.navbar-default {
   background-color: transparent;
   border: none; }
-/* line 316, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 325, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 nav#fullpage-nav .navbar-default .navbar-nav li.active a:hover {
   background: none; }
 
-/* line 322, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+/* line 331, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
 .slide-container {
   padding-right: 15px;
   padding-left: 15px;
@@ -281,27 +290,27 @@ nav#fullpage-nav .navbar-default .navbar-nav li.active a:hover {
   margin-left: auto; }
 
 @media (min-width: 992px) {
-  /* line 330, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 339, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   .slide-container {
     width: 950px; } }
 @media (min-width: 1200px) {
-  /* line 336, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 345, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   .slide-container {
     width: 1100px; } }
 @media only screen and (max-width: 992px) {
-  /* line 343, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 352, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   section.page-section .contain {
     margin: 0 40px; } }
 @media only screen and (max-width: 768px) {
-  /* line 350, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 359, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   .col-right {
     float: left; }
 
-  /* line 351, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 360, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   figcaption {
     font-size: 1.1em;
     line-height: 1.3em; }
 
-  /* line 356, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
+  /* line 365, /Users/he9lin/Projects/mobile-sites/bikeims/source/assets/stylesheets/_index_theme.scss.erb */
   section.page-section .contain {
     margin: 0 20px; } }
